@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar JS Niomic</title>
+  </head>
+  <body>
+    <h1>Tugas 44</h1>
+    <p>jangan ubah warna ini</p>
+    <p>Ubah warna ini  </p>
+    <button type="button" onclick="myFunction()" name="button">Ubah Warna</button>
+
+    <script type="text/javascript">
+      function myFunction(){
+        var x = document.getElementsByTagName("p");
+        for (var i =0; i< x.length;i++){
+          (x.item(1)).style.color = 'blue';
+        }}
+
+    </script>
+
+
+
+
+  </body>
+</html>
